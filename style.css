@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0,1) 75%,     /* hitam solid bertahan sampai 75% */
+        rgba(0,0,0,0) 100%     /* baru cepat hilang di 25% terakhir */
+    );
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+.nav-link {
+    color: white !important;
+    font-weight: regular;
+}
+.nav-link:hover {
+    color: #4C7D62 !important;
+    font-size: 20px;
+}
+.navbar-nav {
+    gap: 20px;
+}
