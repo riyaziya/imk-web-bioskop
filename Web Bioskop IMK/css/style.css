@@ -23,7 +23,7 @@ body {
 .nav-link {
     color: white !important;
     font-weight: regular;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .nav-link:hover {
     color: #4C7D62 !important;
@@ -115,4 +115,32 @@ body {
     background-color: #cdc967;
     color: black; 
     transform: scale(1.05);  
+}
+.tayang-wrap{
+  --tayang-gap: 128px;
+  --tayang-card-w: 220px;
+  max-width: calc(4 * var(--tayang-card-w) + 3 * var(--tayang-gap) + 120px); 
+  padding: 0 60px;
+}
+.tayang-btn{ width: 44px; height: 44px; z-index: 5; }
+#tayangTrack{
+  transition: transform .5s ease;
+  gap: var(--tayang-gap);
+}
+.tayang-card{
+  width: var(--tayang-card-w);
+  background: #1c1c1c;
+  border: none;
+}
+.tayang-card .card-img-top{ aspect-ratio: 2/3; object-fit: cover; }
+.tayang-genre{ color: #4C7D62; font-size: .7rem; }
+.tayang-btn{
+  width: 44px;
+  height: 44px;
+  z-index: 5;
+  background-color: transparent;
+  border: 1px solid #d4c94a;
+}
+.tayang-btn:hover{
+  background-color: #d4c94a;
 }

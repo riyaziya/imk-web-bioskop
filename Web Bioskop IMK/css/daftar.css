@@ -1,5 +1,5 @@
 .auth-card {
-    background: #1c1e22;
+    background: #151A1F;
     padding: 40px;
     border-radius: 16px;
     width: 320px;
@@ -33,7 +33,7 @@
 .auth-card input[type="password"] {
     width: 100%;
     padding: 12px 14px;
-    background: #2a2d32;
+    background: #151A1F;
     border: 1px solid #3a3d42;
     border-radius: 8px;
     color: #fff;
@@ -61,7 +61,7 @@
 }
 
 .auth-card a {
-    color: #d4c94a;   /* warna kuning khas di link */
+    color: #d4c94a;
     text-decoration: none;
 }
 .auth-card a:hover {
@@ -95,4 +95,29 @@
     font-size: 0.85rem;
     color: #ccc;
     margin: 0;
+}
+
+.back-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    background: rgba(21, 26, 31, 0.8);
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 10;
+    transition: background 0.2s ease;
+}
+
+.back-home:hover {
+    background: rgba(212, 201, 74, 0.9);
+    color: #1c1e22;
+    text-decoration: none;
 }

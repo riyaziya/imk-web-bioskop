@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CINEFLEX - Daftar Film</title>
+<link rel="stylesheet" href="../css/daftarfilm.css">
+</head>
+<body>
+
+  <div class="breadcrumb">Daftar Film</div>
+
+  <header>
+    <div class="logo"><span class="cine">CINE</span><span class="flex">FLEX</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" class="active">Film</a>
+      <a href="#">Bioskop</a>
+      <a href="#">News</a>
+    </nav>
+    <div class="search-box">
+      <input type="text" placeholder="Cari film atau bioskop">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </div>
+    <button class="login-btn">Masuk</button>
+  </header>
+
+  <main>
+    <h1 class="page-title">Film</h1>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="semua">Semua film</button>
+      <button class="tab" data-tab="tayang">Sedang Tayang</button>
+      <button class="tab" data-tab="akan">Akan Tayang</button>
+    </div>
+
+    <div class="movie-grid" id="movieGrid"></div>
+  </main>
+
+  <script src="../jsnya/daftarfilm.js"></script>
+</body>
+</html>
